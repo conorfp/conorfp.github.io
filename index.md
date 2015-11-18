@@ -1,8 +1,8 @@
 #Human Flourishing
 
 ![Queens Museum 2015](hf_queens.jpg "Our heros at the Queens Museum, Fall 2015")
-
-##a sound duo for our times
+*photo by Hector Canonge*
+##A sound duo for our times
 
 This is about friendship. Greg Paul and Conor Perreault have been friends since childhood. A few years back, they were mourning the fact that they didn't see each other enough anymore. You know how it is: work, relationships, family, people move. It's hard to stay in touch. Their solution: schedule time to get together on a regular basis, have a home cooked meal, drinks some beers, catch up, then plug in some pedals or grab an instrument or just go near a microphone, and make some noise. 
 
@@ -15,7 +15,7 @@ Though the frequency of these sessions has varied over the years[^2], and though
 ***
 
 ##see also:
-###fka *Two Modern Blokes*
+###fka "Two Modern Blokes"
 [Facebook](https://www.facebook.com/twomodernblokes)
 [Bandcamp](https://twomodernblokes.bandcamp.com)
 [Soundcloud](https://soundcloud.com/twomodernblokes)
