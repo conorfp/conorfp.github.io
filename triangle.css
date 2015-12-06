@@ -1,87 +1,42 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: transparent;
+}
+
+html { 
+  background: url(triangle.png) center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1, p { 
+	color: #FFF;
+	background-color: #000000;
+}
+
 .container-fluid {
-    background-color: #656567;
+    color: #444444;
 }
 
-.triangle {
-width: 0;
-height: 0;
-border-style: solid;
+.page-header {background-color: none;}
+
+/*Colors*/
+
+.blue {
+background-color: #2DE5E5;
 }
 
-/*Downward*/
-
-.down-blue {
-border-width: 173.2px 100px 0 100px;
-border-color: #2DE5E5 transparent transparent transparent;
+.brown {
+background-color: #CCAE14;
 }
 
-.down-blue:hover {
-border-color: #e52de5 transparent transparent transparent;
+.green {
+background-color: #0DFF76;
 }
 
-.down-brown {
-border-width: 173.2px 100px 0 100px;
-border-color: #CCAE14 transparent transparent transparent;
+.pink {
+background-color: #FF19C2;
 }
-
-.down-brown:hover {
-border-color: #14ccae transparent transparent transparent;
-}
-
-.down-green {
-border-width: 173.2px 100px 0 100px;
-border-color: #0DFF76 transparent transparent transparent;
-}
-
-.down-green:hover {
-border-color: #760dff transparent transparent transparent;
-}
-
-.down-pink {
-border-width: 173.2px 100px 0 100px;
-border-color: #FF19C2 transparent transparent transparent;
-}
-
-.down-pink:hover {
-border-color: #c2ff19 transparent transparent transparent;
-}
-
-
-/*Upward*/
-
-.up-blue {
-border-width: 0 100px 173.2px 100px;
-border-color: transparent transparent #2DE5E5 transparent;
-}
-
-.up-blue:hover {
-border-color: transparent transparent #e5e52d transparent;
-}
-
-.up-brown {
-border-width: 0 100px 173.2px 100px;
-border-color: transparent transparent #CCAE14 transparent;
-}
-
-.up-brown:hover {
-border-color: transparent transparent #ae14cc transparent;
-}
-
-.up-green {
-border-width: 0 100px 173.2px 100px;
-border-color: transparent transparent #0DFF76 transparent;
-}
-
-.up-green:hover {
-border-color: transparent transparent #ff760d transparent;
-}
-
-.up-pink {
-border-width: 0 100px 173.2px 100px;
-border-color: transparent transparent #FF19C2 transparent;
-}
-
-.up-pink:hover {
-border-color: transparent transparent #19c2ff transparent;
-}
-
