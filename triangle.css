@@ -21,6 +21,9 @@ h1, p {
 	background-color: #000000;
 }
 
+.panel {
+  background-color: transparent;
+}
 .container-fluid {
     color: #444444;
 }
