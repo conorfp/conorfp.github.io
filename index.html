@@ -1,96 +1,50 @@
-<!DOCTYPE html><html>
-
+<!DOCTYPE html>
+<html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Human Flourishing</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Human Flourishing</title>
+  <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" rel="stylesheet">
+  <link href="triangle.css" rel="stylesheet">
 </head>
 <body>
-<div class="container">
+  <div class="container-fluid">
+    <h1 class="text-center">&#1085;&#965;&#1084;an &#1171;lo&#965;r&#953;&#1109;&#1085;&#953;ng</h1>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div aria-multiselectable="true" class="panel-group" id="accordion" role="tablist">          
+          <div class="panel" id="headingThree" role="tab">
+            <a aria-controls="collapseThree" aria-expanded="false" class="btn btn-default btn-lg" data-parent="#accordion" data-toggle="collapse" href="#collapseThree" role="button">&#953;&#1080;&#1108;&#8467;&#965;&#162;&#1090;&#945;&#1074;&#8467;&#1108; &#1084;&#963;&#8706;&#945;&#8467;&#953;&#1090;&#1091; &#963;f &#1090;&#1085;&#1108; &#957;&#953;&#1109;&#953;&#1074;&#8467;&#1108;</a>
+            <div aria-labelledby="headingThree" class="collapse" id="collapseThree" role="tabpanel"><img alt="Mountain Show V, photo by Daniel Dorsa (I think)" class="img-responsive" src="blokes_msv2.jpg"> <img alt="Queens Museum, photo by Hector Canonge" class="img-responsive" src="hf_queens.jpg"></div>
+          </div>
+          <div class="panel" id="headingTwo" role="tab">
+            <a aria-controls="collapseTwo" aria-expanded="false" class="btn btn-default btn-lg" data-parent="#accordion" data-toggle="collapse" href="#collapseTwo" role="button">&#1085;&#965;&#1084;&#945;&#1080; &#953;&#1080;&#1090;&#1108;&#1103;&#1108;&#1109;&#1090;</a>
+            <div aria-labelledby="headingTwo" class="collapse" id="collapseTwo" role="tabpanel">
+              <p class="lead">Essentially, this is about friendship. Gregory Paul and Conor Perreault have been friends since childhood. A few years back, they were mourning the fact that they didn&rsquo;t see each other enough anymore. You know how it is: work, relationships, family, people move. It&rsquo;s hard to stay in touch. Their solution: schedule time to get together on a regular basis, have a home cooked meal, drinks some beers, catch up, then plug in some pedals or grab an instrument or just go near a microphone, and make some noise.</p>
+              <p class="lead">The resulting music is a celebration of fellow feeling. It&rsquo;s about embracing uncertainty, loving a friend&rsquo;s weirdness, exploring mistakes, and exorcising demons. The music has been called goopcore, and electronic primitivism, and worse<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup>. Their improvisations flow from harsh electronic noise to gentle acoustic strummings and back, held aloft by otherworldly ambient textures and/or simple vocal harmonies.</p>
+              <p class="lead">Though the frequency of these sessions has varied over the years<sup id="fnref2"><a href="#fn2" rel="footnote">2</a></sup>, and though they&rsquo;re living in different states these days<sup id="fnref3"><a href="#fn3" rel="footnote">3</a></sup>, they&rsquo;re still at it. Sometimes they share recordings of the fruits of their meetings online (see below). Other times they broaden the circle and do their communion in the presence of an audience of friends and well-wishers.</p>
+            </div>
+          </div>          
+          <div class="panel" id="headingOne" role="tab">
+            <a aria-controls="collapseOne" aria-expanded="false" class="btn btn-default btn-lg" data-parent="#accordion" data-toggle="collapse" href="#collapseOne" role="button">&#945;&#1103;&#1090; &#969;&#963;&#1103;&#8467;&#8706;</a>
+            <div aria-labelledby="headingOne" class="collapse" id="collapseOne" role="tabpanel">
+              <p class="lead">Human Flourishing explores the spiritual connectivity between people through the creation of tense sound environments in a variety of spaces. Whether located in an abandoned farm structure or a New York gallery, the audience is encapsulated by the experience happening before them; transforming the surroundings into an ethereal or satanical plane. Human Flourishing&rsquo;s experimental <q>sound horizons</q> encourage inner reflection and spiritual connectivity to a world that seems isolated and cold.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+  </script> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+  </script> 
+  <script type="text/javascript">
+  var $accordLinks = $('.accordion .accordion-toggle');
 
-<div class="page-header">
-	<h1 id="toc_0">Human Flourishing
-	<small style="white-space: nowrap">a sound duo for our times</small>
-	</h1>
-</div>
-
-<div class="row">
-	<div class="col-md-4 col-md-push-8">
-		<img src="hf_queens.jpg" alt="Queens Museum 2015" title="Our heros at the Queens Museum, Fall 2015" class="img-rounded img-responsive">
-		<div class="text-right">
-			<em><small>photo by Hector Canonge</small></em></div>
-	</div>
-
-	<div class="col-md-8 col-md-pull-4">
-		<p>Human Flourishing explores the spiritual connectivity between people through the creation of tense sound environments in a variety of spaces. Whether located in an abandoned farm structure or a New York gallery, the audience is encapsulated by the experience happening before them; transforming the surroundings into an ethereal or satanical plane. Human Flourishing&rsquo;s experimental <q>sound horizons</q> encourage inner reflection and spiritual connectivity to a world that seems isolated and cold.</p>
-
-		<p>Essentially, this is about friendship. Gregory Paul and Conor Perreault have been friends since childhood. A few years back, they were mourning the fact that they didn&rsquo;t see each other enough anymore. You know how it is: work, relationships, family, people move. It&rsquo;s hard to stay in touch. Their solution: schedule time to get together on a regular basis, have a home cooked meal, drinks some beers, catch up, then plug in some pedals or grab an instrument or just go near a microphone, and make some noise. </p>
-
-		<p>The resulting music is a celebration of fellow feeling. It&rsquo;s about embracing uncertainty, loving a friend&rsquo;s weirdness, exploring mistakes, and exorcising demons. The music has been called goopcore, and electronic primitivism, and worse<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup>. Their improvisations flow from harsh electronic noise to gentle acoustic strummings and back, held aloft by otherworldly ambient textures and/or simple vocal harmonies. </p>
-
-		<p>Though the frequency of these sessions has varied over the years<sup id="fnref2"><a href="#fn2" rel="footnote">2</a></sup>, and though they&rsquo;re living in different states these days<sup id="fnref3"><a href="#fn3" rel="footnote">3</a></sup>, they&rsquo;re still at it. Sometimes they share recordings of the fruits of their meetings online (see below). Other times they broaden the circle and do their communion in the presence of an audience of friends and well-wishers.</p>
-
-		<button type="button" class="btn btn-default btn-lg"><a href="http://humanflourishing.bandcamp.com"><span class="glyphicon glyphicon-music" aria-hidden="true"></span> Bandcamp</a></button>
-
-		<button type="button" class="btn btn-default btn-lg"><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <script type="text/javascript" src="email.js"></script></a></button>
-	</div>
-</div>
-
-<h2 id="toc_2">See also&colon;</h2>
-
-<div class="row">
-	<div class="col-md-4">
-		<div class="panel panel-default">
-			<div class="panel-heading">
-				<h3 id="toc_3" class="panel-title">fka <q>Two Modern Blokes</q></h3>
-			</div>
-			<div class="list-group">
-				<a href="https://www.facebook.com/twomodernblokes" class="list-group-item">Facebook</a>
-				<a href="https://twomodernblokes.bandcamp.com" class="list-group-item">Bandcamp</a>
-				<a href="https://soundcloud.com/twomodernblokes" class="list-group-item">Soundcloud</a>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="panel panel-default">
-			<div class="panel-heading">
-				<h3 id="toc_4" class="panel-title">Quince Curculio</h3>
-			</div>
-			<div class="list-group">
-				<a href="https://madkingsweeney.bandcamp.com" class="list-group-item">Bandcamp</a>
-				<a href="https://soundcloud.com/jasconius" class="list-group-item">Soundcloud</a>			
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="panel panel-default">
-			<div class="panel-heading">
-				<h3 id="toc_5" class="panel-title">Train Trash</h3>
-			</div>
-			<div class="list-group">
-				<a href="https://traintrash.bandcamp.com" class="list-group-item">Bandcamp</a>
-				<a href="https://soundcloud.com/traintrash" class="list-group-item">Soundcloud</a>
-				<a href="http://gregpaulgregpaul.com" class="list-group-item">gregpaulgregpaul.com</a>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="footnotes small">
-	<ol>
-		<li id="fn1">
-			<q>tags: experimental ambient drone goopcore noise pop psychedelic space rock Connecticut</q> (sorry)&nbsp;<a href="#fnref1" rev="footnote">&#8617;</a>
-		</li>
-		<li id="fn2">
-			You <em>do</em> know how it is, don&rsquo;t you?&nbsp;<a href="#fnref2" rev="footnote">&#8617;</a>
-		</li>
-		<li id="fn3">
-			Brooklyn &amp; New Haven. Fun game: guess which is which.&nbsp;<a href="#fnref3" rev="footnote">&#8617;</a>
-		</li>
-	</ol>
-</div>
-</div>
+  $('.btn').click(function() {
+  $accordLinks.eq($(this).index()).click()
+  })
+  </script>
 </body>
 </html>
