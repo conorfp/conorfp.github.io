@@ -1,11 +1,11 @@
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-    background-color: transparent;
+html,body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: transparent;
 }
 
-html { 
-  background: url(triangle.png) center center fixed; 
+html {
+  background: url(triangle.png) center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -16,51 +16,27 @@ body {
   text-align: center;
 }
 
-h1, p { 
-	color: #FFF;
-	background-color: #000000;
+h1,p {
+  color: #dff961;
+  background-color: #000;
 }
 
 .panel {
   background-color: transparent;
-}
-.container-fluid {
-    color: #444444;
-}
-
-.page-header {background-color: none;}
-
-.col-centered{
-float: none;
-margin: 0 auto;
+  border: none;
+  box-shadow: none;
 }
 
-.btn-lg, .btn {
-border: none;
-border-radius: 0;
+.btn-lg,.btn {
+  border: none;
+  border-radius: 0;
+  background-color: #0DFF76;
 }
 
-.tri {
-  width: 0;
-height: 0;
-border-style: solid;
-border-width: 173.2px 100px 0 100px;
-border-color: #000000 transparent transparent transparent;
-}
-/*Colors*/
-
-.blue {
-background-color: #2DE5E5;
+.btn-default:hover {
+  background-color: #FF19C2;
 }
 
-.brown {
-background-color: #CCAE14;
-}
-
-.green {
-background-color: #0DFF76;
-}
-
-.pink {
-background-color: #FF19C2;
+.btn-default:focus {
+  background-color: #2DE5E5;
 }
