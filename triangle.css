@@ -21,6 +21,11 @@ h1,p {
   background-color: #000;
 }
 
+img {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .panel {
   background-color: transparent;
   border: none;
