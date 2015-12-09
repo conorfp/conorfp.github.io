@@ -45,3 +45,8 @@ img {
 .btn-default:focus {
   background-color: #2DE5E5;
 }
+
+.collapse, .collapsing {
+  margin-top: 10px;
+}
+}
